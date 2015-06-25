@@ -16,10 +16,17 @@
 #
 #############
 title: FHIR
-baseUri: http://fhir.healthintersections.com.au/open
+baseUri: http://fhirtest.uhn.ca/baseDstu2
 version: v1
 /{type}:
   displayName: TYPE
+  get:
+    responses:
+      200:
+        body:
+          application/json+fhir:
+          application/xml+fhir:
+          application/json:
   post:
     description: |
       Create a new type
