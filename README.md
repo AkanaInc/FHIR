@@ -22,16 +22,17 @@ FHIR - is the a next generation standards framework created by HL7.  FHIR combin
 - Download FHIRAPIHook.zip 
 - Login to PolicyManager  example: http://localhost:9900
 - Select the parent organization you want to import the API Hook into.  The import will create a whole new organization.  Click on the "Import Package" from the Actions navigation window on the right side of the screen
-  - click on button to browse for the FHIR-HL7.zip archive file and click Okay.
+  - click on button to browse for the FHIR_HL7.zip archive file and click Okay.
 
 #### Verify Import
 Only if you chose Option 2 above.
-- Expand the organization you imported into.  You should now see a new organization called FHIR-HL7.
-- Expand the services folder of the FHIR-HL7.  You should see one physical and one virtual service.
+- Expand the organization you imported into.  You should now see a new organization called FHIR_HL7.
+- Expand the services folder of the FHIR_HL7.  You should see one physical and one virtual service.
 
 #### Configure Security
 - No security is required to access the reference server implementation.  
-- If connecting to your FHIR server implementation you will need to apply security.
+- If connecting to your FHIR server implementation that has security enabled you will need to apply the appropriate security policies.
+- You can also secure your FHIR server through Akana's gateway by appling the appropriate security policies. 
 
 #### Policy Activation
 - No policy activation at this time
