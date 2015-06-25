@@ -55,7 +55,7 @@ Only if you chose Option 2 above.
 	- You are now done
 
 #### Verify Connectivity
-- Using your browser http://{Your HOST example: localhost:9901}/fhir/v1/patient
+- Using your browser http://{Your HOST example: localhost:9901}/fhir/v1/Patient
 - You should see this response:
 
 ```
