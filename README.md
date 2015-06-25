@@ -1,6 +1,7 @@
-# FHIR API HOOK by SOA Software
-Put a nice company logo image here. 
-Link to product documentation and product overview page
+# Akana API HOOK
+![Image of Akana] 
+(https://www.akana.com/img/formerlyLOGO8.png) 
+[Akana.com](http://akana.com)
 ## FHIR API 
 ### About the API
 FHIR - is the a next generation standards framework created by HL7.  FHIR combines the best features of HL7's Version 2, Version 3 and CSA product lines while leveraging the latest web standards and applying a tight focus on implementability. 
