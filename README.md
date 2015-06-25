@@ -22,7 +22,7 @@ FHIR - is the a next generation standards framework created by HL7.  FHIR combin
 - Download FHIRAPIHook.zip 
 - Login to PolicyManager  example: http://localhost:9900
 - Select the parent organization you want to import the API Hook into.  The import will create a whole new organization.  Click on the "Import Package" from the Actions navigation window on the right side of the screen
-  - click on button to browse for the org_SmartyStreetOrg_export.zip archive file and click Okay.
+  - click on button to browse for the FHIR-HL7.zip archive file and click Okay.
 
 #### Verify Import
 Only if you chose Option 2 above.
